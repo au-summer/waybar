@@ -1,0 +1,6 @@
+{
+  "hyprland/language": {
+    "format": "{short} {variant}",
+    "on-click": "keyboardswitch.sh"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar --location 'Ann Arbor'",
+    "return-type": "json"
+  }
+}

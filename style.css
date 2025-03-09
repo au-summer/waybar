@@ -1,0 +1,89 @@
+* {
+  border: 0;
+  border-radius: 10px;
+  font-family: "Ubuntu Nerd Font";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+window#waybar {
+  background: #11111b;
+}
+
+tooltip {
+  background: #242438;
+  color: #b4befe;
+}
+
+#workspaces button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 0px;
+  color: #b4befe;
+  animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.active {
+  background: #242438;
+  color: #b4befe;
+  box-shadow: 0 0 0 2px #b4befe;
+  margin-left: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 4px;
+  animation: ws_active 20s ease-in-out 1;
+  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#backlight,
+#battery,
+#bluetooth,
+#custom-cava,
+#custom-cliphist,
+#clock,
+#custom-cpuinfo,
+#cpu,
+#custom-github_hyprdots,
+#custom-gpuinfo,
+#idle_inhibitor,
+#custom-keybindhint,
+#language,
+#memory,
+#mpris,
+#network,
+#custom-notification,
+#custom-power,
+#privacy,
+#pulseaudio,
+#custom-spotify,
+#taskbar,
+#custom-theme,
+#tray,
+#custom-updates,
+#custom-wallchange,
+#custom-wbar,
+#custom-weather,
+#window,
+#workspaces {
+  color: #b4befe;
+  background: #242438;
+  margin: 5px 0px 5px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#custom-padd {
+  background: #11111b;
+  color: #11111b;
+}
+
+/* #custom-weather {
+    padding-left: 10px;
+    padding-right: 10px;
+} */

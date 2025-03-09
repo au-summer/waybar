@@ -1,0 +1,31 @@
+{
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "active-only": false,
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace -1",
+    "on-scroll-down": "hyprctl dispatch workspace +1",
+    "persistent-workspaces": {},
+    "format": " {name} {windows} ",
+    "format-icons": {
+      "default": "",
+    },
+    "window-rewrite-default": "󰦨",
+    "window-rewrite": {
+      "class<chrome>": "",
+      "class<firefox>": "󰈹",
+      "class<code>": "󰨞",
+      "class<kitty> title<nvim.*>": "",
+      "class<kitty>": "",
+      "class<zotero>": "",
+      "class<QQ>": "",
+      "class<wechat>": "",
+      "class<steam>": "",
+      "class<mpv>": "",
+      "class<spotify>": "",
+      "class<torrent>": "",
+      "class<discord>": "",
+    },
+  },
+}

@@ -1,0 +1,6 @@
+{    "custom/keybindhint": {
+        "format": " ",
+        "tooltip-format": " Keybinds",
+        "on-click": "keybinds_hint.sh"
+    },
+}
